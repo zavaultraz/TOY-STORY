@@ -43,6 +43,8 @@ body {
     list-style-type: none;
     display: none;
     margin: 0 20px;
+    -webkit-transition: -webkit-transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
 }
 
 .navbar-link {
@@ -61,6 +63,10 @@ body {
     margin-right: auto;
     margin-left: 50px;
     list-style-type: none;
+}
+.toggle:hover{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90dg);
 }
 
 .logo a {
@@ -122,9 +128,9 @@ body {
         height: 70px;
         margin-left: 0 ;
     }
-    .toggle img{
-        width: 30px;
-        height: 25px;
+    .toggle {
+        width: 40px;
+
     }
     .navbar-button{
         width: 40%;
