@@ -92,6 +92,7 @@ body {
 @media screen and (max-width: 768px) {
     .toggle {
         display: block;
+        width: 40px;
     }
 
     .nav-list {
