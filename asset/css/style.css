@@ -174,13 +174,14 @@ body {
     font-weight: 700;
     margin-bottom: 20px;
     color: #F0DE36;
-    text-shadow: 5px 2px 1px #303481;
+    text-shadow: 4px 3px 5px #303481;
 
 }
 
 .big-heading p {
     font-size: 1.5em;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .explore-button {
